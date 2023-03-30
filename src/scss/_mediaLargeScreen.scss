@@ -1,0 +1,58 @@
+@media only screen and (min-width: 993px) and (max-width:1700px){
+    .nav{
+        .logo{
+            .logo-txt{
+                font-size: 20px;
+                margin-left: 25px;
+            }
+        }
+        .ul{
+            text-align: center;
+            margin-right: -8px;
+            .li{
+                .link{
+                    font-size: 18px;
+                }
+            }
+        }
+        .moon , .sun{
+            margin-top: -30px;
+            margin-right: 8px;
+        }
+    }
+    #About{
+        height: 739px;
+        .ABOUT{
+            margin-left: auto;
+            margin-right: auto;
+            .Aboutimg{
+                width: 40%;
+                height: 360px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .textabout{
+                width: 590px;
+                height: 222px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+                .abouttitle{
+                    font-size: 20px;
+                    margin-left: 0;
+                }
+                .abouttext{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    #Contact{
+        .hr{
+            margin-left: auto;
+            margin-right: auto;
+            width: 700px;
+            margin-top: -60px;
+        }
+    }
+}

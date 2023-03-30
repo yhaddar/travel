@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&family=Lato:ital,wght@1,700&family=Nunito:ital,wght@1,900&family=Open+Sans&family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Chakra+Petch:ital@1&family=Lato:ital,wght@1,700&family=Nunito:ital,wght@1,900&family=Open+Sans&family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo:wght@900&family=Chakra+Petch:ital@1&family=Lato:ital,wght@1,700&family=Nunito:ital,wght@1,900&family=Open+Sans&family=Patrick+Hand&family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo:wght@900&family=Chakra+Petch:ital@1&family=Lato:ital,wght@1,700&family=Nunito:ital,wght@1,900&family=Open+Sans&family=Roboto+Mono&family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // border: 1px solid red;
+}
+
+$font-logo: 'Alfa Slab One', cursive;
+$font-primary: "Lato", sans-serif;
+$font-primary-2: 'Patrick Hand', cursive;
+$font-primary-3: 'Roboto Mono', monospace;
+$box-shadow: 100px 100px 80px rgba(0, 0, 0, 0);
+
+
+:root{
+    // font 
+    --clr-font-light: #000000;
+    --clr-font-dark: #ffffff;
+
+    // bg-color-light : 
+    --clr-primary-1: #ffffff;
+    --clr-primary-2: #ecf0ec;
+    --clr-dark:#1e1e1e;
+
+    // color-Hover : 
+    --clr-hover: #ff400f;
+    
+    // color-background-color :
+    --clr-button: linear-gradient(to right, #f12711, #f5af19 );
+
+    // color-background-hover :
+    --clr-button-hover: linear-gradient(to left, #f12711, #ff400f  );
+}
+
+@mixin hoverbtn {
+    transition:  1s ease-out;
+    &:hover{
+        box-shadow: inset 300px 0 0 0 #ff400f;
+    }
+    &:active{
+        transform: scale(0.98);
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+//   /* Track */
+//   ::-webkit-scrollbar-track {
+//     background: var(--clr-font-dark);
+//   }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--clr-button);
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--clr-button-hover);
+  }
+
+@mixin buttons {
+    width: 170px;
+    height: 50px;
+    font-size: 16px;
+    color: var(--clr-font-light);
+    font-family: $font-primary;
+    background: var(--clr-button);
+    border: none;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+    cursor: pointer;
+    @include hoverbtn;
+}
+@mixin button-readmore{
+    @include buttons;
+    width: 93px;
+    height: 36px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+@mixin titles {
+    text-align: center;
+    font-size: 39px;
+    color: var(--clr-font-light);
+    font-family: $font-primary-3;
+    word-spacing: 4px;
+    font-style: italic;
+}
+@mixin animationTheme{
+    transition: 1s ease-out;
+
+}
+
+@import "../scss/headerTravel";
+@import "../scss/HomeTravel";
+@import "../scss/serviceTravel";
+@import "../scss/aboutTravel";
+@import "../scss/packageTravel";
+@import "../scss/uptooffTravel";
+@import "../scss/contactTravel";
+@import "../scss/mediaMobile";
+@import "../scss/mediaTablet";
+@import "../scss/mediaLaptop";
+@import "../scss/mediaLargeScreen";

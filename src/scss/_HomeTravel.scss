@@ -1,0 +1,34 @@
+#Home{
+    padding-top: 90px;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../assets/bgHome.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    @include animationTheme;
+    .text{
+        text-align: center;
+        color: var(--clr-font-dark);
+        margin-top: 279px;
+        font-family: $font-primary-2;
+        .text-1{
+            font-size: 64px;
+            word-spacing: 12px;
+        }
+        .text-2{
+            font-size: 30px;
+            word-spacing: 16px;
+            margin-top: -14px;
+            margin-left: 14px;
+        }
+        .link-2{
+            .btn-1{
+                @include buttons;
+                margin-top: 18px;
+            }
+            
+        }
+        
+    }
+}

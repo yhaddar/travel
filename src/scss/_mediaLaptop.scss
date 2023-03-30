@@ -1,0 +1,190 @@
+@media only screen and (min-width:769px) and (max-width:992px){
+    .nav{
+        .logo{
+            .logo-txt{
+                font-size: 20px;
+                margin-left: 25px;
+            }
+        }
+        .ul{
+            text-align: center;
+            margin-right: -8px;
+            .li{
+                .link{
+                    font-size: 18px;
+                }
+            }
+        }
+        .moon , .sun{
+            margin-top: -30px;
+            margin-right: 8px;
+        }
+    }
+    #Home{
+        .text{
+            .text-1{
+                font-size: 30px;
+            }
+            .text-2{
+                font-size: 22px;
+                margin-top: -3px;
+                word-spacing: normal;
+            }
+            .link-2{
+                margin-top: -8px;
+                .btn-1{
+                    width: 127px;
+                    height: 40px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    #Service{
+        .OurService{
+            font-size: 20px;
+        }
+        .Activities{
+            margin-left: auto;
+            margin-right: auto;
+            .activities{
+                width: 100px;
+                height: 100px;
+                .imglogo{
+                    width: 55px;
+                    height: 35px;
+                }
+                .servicetext{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    #About{
+        .About{
+            .about{
+                font-size: 20px;
+            }
+        }
+        .ABOUT{
+            margin-left: auto;
+            margin-right: auto;
+            .Aboutimg{
+                max-width: 500px;
+                height: 330px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .textabout{
+                width: 500px;
+                height: 200px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+                .abouttitle{
+                    font-size: 20px;
+                    margin-left: 0;
+                }
+                .abouttext{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    #Package{
+        .OurPackage{
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        .pkg{
+            .package{
+                max-width: 347px;
+                height: 650px;
+                margin-left: 0px;
+                margin-right: 0;
+                .PackageImg{
+                    padding: 16px 15px 10px 15px;
+                    .packageimg{
+                        max-width: 100%;
+                        height: 300px;
+                        margin-left: 0;
+                    }
+                }
+                .PackageText{
+                    .packagetitle{
+                        font-size: 20px;
+                    }
+                    .packagetext{
+                        font-size: 14px;
+                    }
+                }
+                .btn{
+                    margin-left: -97px;
+                    margin-right: auto;
+                    margin-top: 20px;
+                    .link-4{
+                        .btn-readmore{
+                            margin-top: 60px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #UptoOff{
+        .UptoOff{
+            .uptooff{
+                font-size: 20px;
+            }
+            .uptoofftext{
+                font-size: 16px;
+            }
+            .btn-reservation{
+                width: 120px;
+                height: 35px;
+                font-size: 12px;
+                margin-top: 7px;
+            }
+        }
+    }
+    #Contact{
+        height: 300px;
+        .Contact{
+            .contactUS{
+                font-size: 20px;
+            }
+        }
+        .contact{
+            .contacts{
+                margin-left: 0;
+                .title-contact{
+                    font-size: 16px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .ul-contact{
+                    margin-left: 45px;
+                    // margin-right: auto;
+                    .li-contact{
+                        .link-contact{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .hr{
+            margin-left: auto;
+            margin-right: auto;
+            width: 230px;
+            margin-top: -60px;
+        }
+        .textfinal{
+            margin-top: 10px;
+            .copyright{
+                font-size: 10px;
+            }
+        }
+    }
+}
